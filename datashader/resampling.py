@@ -412,7 +412,7 @@ def downsample_2d(src, w, h, method=DS_MEAN, fill_value=None, mode_rank=1, out=N
         New grid width
     h : int
         New grid height
-    ds_method : str (optional)
+    method : str (optional)
         Grid cell aggregation method for a possible downsampling
         (one of the *DS_* constants).
     fill_value : scalar (optional)
@@ -420,7 +420,7 @@ def downsample_2d(src, w, h, method=DS_MEAN, fill_value=None, mode_rank=1, out=N
         otherwise from *out* if it is a masked array,
         otherwise numpy's default value is used.
     mode_rank : scalar (optional)
-        The rank of the frequency determined by the *ds_method*
+        The rank of the frequency determined by the *method*
         ``DS_MODE``. One (the default) means most frequent value, two
         means second most frequent value, and so forth.
     out : numpy.ndarray (optional)

@@ -698,7 +698,7 @@ class by(Reduction):
 
     Parameters
     ----------
-    cats: str or CategoryPreprocess instance
+    cat_column : str or CategoryPreprocess instance
         Name of column to aggregate over, or a categorizer object that returns categories.
         Resulting aggregate has an outer dimension axis along the categories present.
     reduction : Reduction

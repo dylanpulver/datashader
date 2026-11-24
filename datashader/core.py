@@ -1023,10 +1023,10 @@ x- and y-coordinate arrays must have 1 or 2 dimensions.
             define the data variable).
         layer : float
             For a 3D array, value along the z dimension : optional default=None
-        ds_method : str (optional)
-            Grid cell aggregation method for a possible downsampling.
-        us_method : str (optional)
+        upsample_method : str (optional)
             Grid cell interpolation method for a possible upsampling.
+        downsample_method : str (optional)
+            Grid cell aggregation method for a possible downsampling.
         nan_value : int or float, optional
             Optional nan_value which will be masked out when applying
             the resampling.

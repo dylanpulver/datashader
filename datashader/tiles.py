@@ -149,9 +149,6 @@ class MercatorTileDefinition:
     y_range : tuple
       full extent of y dimension in data units
 
-    max_zoom : int
-      A maximum zoom level for the tile layer. This is the most zoomed-in level.
-
     min_zoom : int
       A minimum zoom level for the tile layer. This is the most zoomed-out level.
 
@@ -167,9 +164,6 @@ class MercatorTileDefinition:
     initial_resolution : int
       Resolution (plot_units / pixels) of minimum zoom level of tileset
       projection. None to auto-compute.
-
-    format : int
-      An y-offset in plot coordinates.
 
     Output
     ------
